@@ -13,10 +13,8 @@ def rockPaperScissors():
         userInput = input("What do you choose? Type Rock, Paper, or Scissors: ").lower()
         computerInput = random.choice(computerChoices)
 
-
-
         if userInput == "rock" and computerInput == "paper":
-            print("Computer threw paper.\n")
+            print("Computer threw paper. You Lose!\n")
 
         elif userInput == "paper" and computerInput == "rock":
             print("You win! Computer used rock.\n")

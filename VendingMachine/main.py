@@ -15,3 +15,11 @@ if login == "admin":
             Admin.choices(AdminList)
         else:
             print("Wrong login/password")
+else:
+    from VendingMachine import VendingMachine
+
+    vending_machine = VendingMachine()
+    vending_machine.show_selections()
+
+
+
