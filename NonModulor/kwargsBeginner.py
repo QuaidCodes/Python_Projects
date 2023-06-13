@@ -9,4 +9,4 @@ def capitals(**kwargs):
         print("{}: {}".format(key, values))
 
 
-capitals(Pakistan="Islamabad", Afghanistan="Kabul", Syria="Damascus", Lebanon="Beirut", Iran="Tehran", Iraq="Baghdad", Saudi="Riyadh")
+capitals(Pakistan="Islamabad", Afghanistan="Kabul", Syria="Damascus", Lebanon="Beirut", Iran="Tehran", Iraq="Baghdad", SaudiArabia="Riyadh")

@@ -10,4 +10,5 @@ def multi(*args):
 
     return total
 
-print(multi(2,2,2,2,2))
+
+print(multi(2, 2, 2, 2, 2))
