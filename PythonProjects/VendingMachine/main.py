@@ -15,11 +15,15 @@ if login == "admin":
             Admin.choices(AdminList)
         else:
             print("Wrong login/password")
+
+    del AdminList
 else:
+    # imports and  calls vending machine class
     from VendingMachine import VendingMachine
 
     vending_machine = VendingMachine()
-    vending_machine.show_selections()
 
+    # show interface and collect funds
+    vending_machine.landing()
 
-
+    del vending_machine

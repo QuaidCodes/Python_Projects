@@ -2,10 +2,16 @@
 from VendingMachine import VendingMachine
 
 
-# admin has rights to delete, add, and close vending machine, change prices.
+# admin has rights to delete, add, close vending machine, and change prices.
+# admin also has access to the stored funds
 class Admin(VendingMachine):
 
-    valid_admins = ["quaidtahir", "admin"]
+    def __init__(self):
+        self.valid_admins = ["quaidtahir", "admin"]
+        self.funds = 0
+
+    def __del__(self):
+        ...
 
     def choices(self):
         choice = -7
@@ -13,8 +19,6 @@ class Admin(VendingMachine):
         while choice != 0:
             self.admin_interface()
             choice = input("Choose: ")
-
-        return 0
 
     def add_selection(self):
         pass
@@ -30,6 +34,9 @@ class Admin(VendingMachine):
 
     def exit(self):
         pass
+
+    def sales(self):
+        self.funds += 0
 
     def admin_interface(self):
         print("1. Selection List\n2. Remove\n3. Add\n4. Start\n5. Shutdown\n0. Exit")
