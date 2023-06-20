@@ -18,3 +18,6 @@ def randomBillPicker():
     print(names)
 
     print(f"{names[randomInt]} is going to pay the bill today!")
+
+
+randomBillPicker()
