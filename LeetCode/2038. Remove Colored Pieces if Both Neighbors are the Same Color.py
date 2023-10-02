@@ -17,7 +17,3 @@ def winnerOfGame(colors: str) -> bool:
         return True
     elif bob > alice:
         return False
-
-arg = "BBAAABBABBABB"
-
-print(winnerOfGame(arg))
