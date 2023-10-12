@@ -1,12 +1,29 @@
 # Guide for Git
 
+// Below link contains full brief
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+
 git init -b main
 // b is for branch
 // init is initializing
 
 git add .
-// Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+// Adds the files in the local repository and stages them for commit.
+// To unstage a file, use 'git reset HEAD YOUR-FILE'.
 
+git commit -m "First commit"
+// Commits the tracked changes and prepares them to be pushed to a remote repository.
+// To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit 
+// and add the file again.
 
+git remote add origin REMOTE-URL
+// To add the URL for the remote repository where your local repository will be pushed,
+// run the following command. Replace REMOTE-URL with the repository's full URL on GitHub.
+
+git remote -v
+//To verify that you set the remote URL correctly, run the following command.
+
+git push origin main
+// To push the changes in your local repository to GitHub.com, run the following command.
 
 
