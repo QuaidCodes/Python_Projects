@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9735ec-8668-4afd-9f6f-5a7579020808" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/(In_Progress)26. Remove Duplicates from Sorted Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(Unsolved)26. Remove Duplicates from Sorted Array.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/69. Sqrt(x).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,7 @@
     "Python.26. Remove Duplicates from Sorted Array.executor": "Run",
     "Python.27. Remove Element.executor": "Run",
     "Python.58. Length of Last Word.executor": "Run",
+    "Python.69. Sqrt(x).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/tahirqua/Desktop/Coding/Python_Projects/LeetCode"
