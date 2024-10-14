@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9735ec-8668-4afd-9f6f-5a7579020808" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/121. Best Time to Buy and Sell Stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/DjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/DjangoProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projects/DjangoProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,8 @@
     "Python.69. Sqrt(x).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tahirqua/Desktop/Coding/Python_Projects/LeetCode"
+    "last_opened_file_path": "C:/Users/tahirqua/Desktop/Coding/Python_Projects/LeetCode",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
