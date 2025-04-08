@@ -1,0 +1,33 @@
+
+
+# Project Catalog
+
+---------------------------------------
+# Selected
+---------------------------------------
+
+
+---------------------------------------
+# Completed Projects
+---------------------------------------
+
+
+
+
+
+---------------------------------------
+# Future Projects
+---------------------------------------
+1. To-Do List App – Use tkinter or a simple CLI to manage tasks.
+
+2. Basic Calculator – Build a GUI calculator with tkinter or PyQt.
+
+3. Automated File Organizer - Sort files by extension (e.g., .pdf, .jpg) into folders. Libraries: os, shutil.
+
+4. YouTube Video Downloader - Download videos/playlists with metadata. Libraries: pytube, moviepy and GUI with tkinter.
+
+5. Web Scraper for Real-Time Data - Scrapes stock prices. Libraries: requests, BeautifulSoup, selenium.
+Save in CSV file.
+
+
+
